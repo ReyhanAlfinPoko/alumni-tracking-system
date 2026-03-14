@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sistem Pelacakan Alumni</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>Sistem Pelacakan Alumni</h1>
+
+<div class="form">
+<input type="text" id="nama" placeholder="Nama Alumni">
+<input type="text" id="prodi" placeholder="Program Studi">
+<input type="text" id="pekerjaan" placeholder="Pekerjaan">
+
+<button onclick="tambahAlumni()">Tambah Alumni</button>
+</div>
+
+<h2>Data Alumni</h2>
+
+<input type="text" id="search" placeholder="Cari Alumni" onkeyup="cariAlumni()">
+
+<ul id="listAlumni"></ul>
+
+<script src="script.js"></script>
+
+</body>
+</html>
